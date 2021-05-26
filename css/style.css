@@ -1,0 +1,1105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+.main {
+    display: flex;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h2 {
+    font-family: 'Arimo', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #353535;
+}
+
+.title p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    width: 571px;
+    margin: 10px auto;
+    color: #666666;
+    line-height: 20px;
+}
+
+/*=====================================
+          header part start
+======================================*/
+
+header {
+    background: #0a1521;
+}
+
+header .logo {
+    color: #fd0f20;
+    width: 20%;
+}
+
+header .logo .logop {
+    padding: 15px 0;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header .logo .logospan {
+    font-size: 17px;
+}
+
+header .menu {
+    width: 40%;
+}
+
+header .menu ul {
+    text-align: right;
+}
+
+header .menu ul li {
+    display: inline-block;
+}
+
+header .menu ul li a {
+    display: inline-block;
+    color: #fff;
+    margin-left: 29px;
+    margin-top: 30px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header .log {
+    display: flex;
+    width: 40%;
+}
+
+header .log .search {
+    position: relative;
+}
+
+header .log .search .f {
+    cursor: pointer;
+}
+
+header .log .search input {
+    border: none;
+    border-bottom: 1px solid #fd0f20;
+    margin-left: 88px;
+    padding: 3px 0;
+    margin-top: 25px;
+    outline: 0;
+    background: transparent;
+}
+
+header .log .search input::placeholder {
+    color: #fd0f20;
+}
+
+header .log .search .input {
+    position: absolute;
+    top: 31px;
+    left: 0;
+    display: none;
+}
+
+header .log .search .input input {
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 17px -3px rgba(235, 7, 91, 1);
+}
+
+header .log .search .icon {
+    position: absolute;
+    top: 27px;
+    right: 0;
+}
+
+header .log .search .icon i {
+    font-size: 13px;
+    color: #fd0f20;
+}
+
+header .log .login p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    margin-top: 29px;
+    margin-left: 30px;
+}
+
+header .log .login p .signup {
+    padding: 14px 28px;
+    background: #fd0f20;
+    border-radius: 38px;
+    margin-left: 15px;
+}
+
+/*=====================================
+          header part start
+======================================*/
+
+
+
+
+/*=====================================
+          banner part start
+======================================*/
+#banner-part {
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#banner-part .overlay {
+    background: rgb(2, 13, 24, .9);
+    height: 100%
+}
+
+#banner-part .overlay .first .text {
+    width: 50%;
+}
+
+#banner-part .overlay .first .text .p {
+    margin-top: 172px;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+#banner-part .overlay .first .text p .count {
+    background: #f4b01e;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin-right: 13px;
+}
+
+#banner-part .overlay .first .text p .action {
+    background: #37a3df;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin-right: 13px;
+}
+
+#banner-part .overlay .first .text p .adv {
+    background: #df5f37;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+#banner-part .overlay .first .text h2 {
+    margin-top: 10px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#banner-part .overlay .first .text .details {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-top: 35px;
+    width: 467px;
+    line-height: 23px;
+}
+
+#banner-part .overlay .first .text a {
+    margin-top: 45px;
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    padding: 14px 21px;
+    background: #000;
+    border-radius: 38px;
+    margin-right: 25px;
+    transition: .6s;
+}
+
+#banner-part .overlay .first .text .anchor {
+    background: #fa0f1f;
+    box-shadow: -10px 15px 53px -7px rgba(246, 14, 31, 0.85);
+}
+
+#banner-part .overlay .first .text i {
+    margin-right: 10px;
+}
+
+#banner-part .overlay .first .text a:hover {
+    background: #fff;
+    color: #000;
+    box-shadow: inset 0px 0px 44px -9px rgba(255, 0, 153, 1);
+}
+
+#banner-part .overlay .first .image img {
+    margin-top: 66px;
+    margin-left: 109px;
+    box-shadow: -11px 10px 28px -6px rgba(242, 12, 77, 0.77);
+}
+
+#banner-part .overlay .second {
+    margin-top: 82px;
+    padding-bottom: 20px;
+}
+
+#banner-part .overlay .second .image {
+    width: 221px;
+    height: 193px;
+    margin: 0 20px;
+}
+
+#banner-part .overlay .second .image img {
+    width: 100%;
+    height: 100%;
+    box-shadow: -8px 19px 25px -5px rgba(237, 3, 128, 0.71);
+}
+
+/*=====================================
+          banner part end
+======================================*/
+
+
+
+
+
+/*=====================================
+          misson part start
+======================================*/
+
+#mission-part {
+    background: #0a1521;
+}
+
+#mission-part .container {
+    background: url(../images/misson-banner.png) no-repeat center;
+    background-size: cover;
+}
+
+#mission-part .container .overlay {
+    background: rgb(21, 31, 43, .9);
+    width: 100%;
+}
+
+#mission-part .container .overlay .video {
+    width: 50%;
+}
+
+#mission-part .container .overlay .video .v {
+    width: 100%;
+    margin-top: 162px;
+}
+
+#mission-part .container .overlay .text {
+    width: 50%;
+    padding-left: 82px;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+}
+
+#mission-part .container .overlay .text .p {
+    margin-top: 172px;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+#mission-part .container .overlay .text p .count {
+    background: #f4b01e;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin-right: 13px;
+}
+
+#mission-part .container .overlay .text p .action {
+    background: #37a3df;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin-right: 13px;
+}
+
+#mission-part .container .overlay .text p .adv {
+    background: #df5f37;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+#mission-part .container .overlay .text h2 {
+    margin-top: 10px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#mission-part .container .overlay .text .details {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-top: 35px;
+    width: 467px;
+    line-height: 23px;
+}
+
+#mission-part .container .overlay .text a {
+    margin-top: 45px;
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    padding: 14px 21px;
+    background: #000;
+    border-radius: 38px;
+    margin-right: 25px;
+    transition: .6s;
+}
+
+#mission-part .container .overlay .text .anchor {
+    background: #fa0f1f;
+    box-shadow: -10px 15px 53px -7px rgba(246, 14, 31, 0.85);
+}
+
+#mission-part .container .overlay .text i {
+    margin-right: 10px;
+}
+
+#mission-part .container .overlay .text a:hover {
+    background: #fff;
+    color: #000;
+    box-shadow: inset 0px 0px 44px -9px rgba(255, 0, 153, 1);
+}
+
+/*=====================================
+          mission part end
+======================================*/
+
+
+
+
+/*=====================================
+          trend part start
+======================================*/
+
+#trend-part {
+    background: #020d18;
+}
+
+#trend-part .trendbanner {
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+#trend-part .trendbanner img {
+    box-shadow: -1px 14px 41px -21px rgba(255, 0, 85, 1);
+}
+
+#trend-part .trend {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+#trend-part .trendslider {
+
+    margin-top: 35px;
+    margin-bottom: 60px;
+}
+
+#trend-part .trendslider .item {
+    text-align: center;
+    background: #15202b;
+    border-radius: 38px;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-right: 13.4px;
+    padding: 6px 0;
+    transition: .4s;
+}
+
+#trend-part .trendslider .item:hover {
+    box-shadow: inset 0px 0px 40px -10px rgba(252, 0, 134, 0.7);
+}
+
+#trend-part .trendslider .color {
+    background: #fe0f20;
+}
+
+#trend-part .prev {
+    color: #fff;
+    position: absolute;
+    top: 47%;
+    left: -36px;
+    transform: translateY(-50%);
+    z-index: 99;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+#trend-part .next {
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: 46%;
+    right: -31px;
+    transform: translateY(-50%);
+    z-index: 99;
+    cursor: pointer;
+}
+
+#trend-part .main {
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+#trend-part .detail {
+    width: 19%;
+
+}
+
+#trend-part .detail .image {
+    height: 200px;
+    overflow: hidden;
+}
+
+#trend-part .detail .image img {
+    height: 100%;
+    width: 100%;
+    transition: .4s;
+
+}
+
+#trend-part .detail .image img:hover {
+    transform: scale(1.2)
+}
+
+#trend-part .detail .text .h4 {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 28px;
+    margin-bottom: 19px;
+}
+
+#trend-part .detail .text .p {
+    color: #4c4c4c;
+}
+
+#trend-part .detail .text .p .year {
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #4c4c4c;
+}
+
+#trend-part .detail .text .p .year {
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #4c4c4c;
+}
+
+#trend-part .detail .text .p .love {
+    display: inline-block;
+    font-size: 10px;
+    margin-left: 47px;
+}
+
+#trend-part .detail .text .p .eye {
+    display: inline-block;
+    font-size: 10px;
+    margin-left: 12px;
+}
+
+#trend-part .detail .text .p .star {
+    display: inline-block;
+    font-size: 10px;
+    margin-left: 21px;
+    color: #f4dd1e;
+}
+
+#trend-part .detail .text .p .rating {
+    display: inline-block;
+    color: #f4dd1e;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#trend-part .button {
+    text-align: center;
+}
+
+#trend-part a {
+    margin-bottom: 45px;
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    padding: 14px 21px;
+    background: #15202b;
+    border-radius: 38px;
+    transition: .6s;
+}
+
+#trend-part a:hover {
+    background: #fff;
+    color: #000;
+    box-shadow: inset 0px 0px 44px -9px rgba(255, 0, 153, 1);
+}
+
+/*=====================================
+          trend part end
+======================================*/
+
+
+
+
+/*=====================================
+          world part start
+======================================*/
+
+#world-part {
+    background: #0c1118;
+}
+
+
+
+#world-part .first .text {
+    margin-bottom: 172px;
+}
+
+#world-part .first .text .p {
+    margin-top: 172px;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+#world-part .first .text p .count {
+    background: #f4b01e;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin-right: 13px;
+}
+
+#world-part.first .text p .action {
+    background: #37a3df;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin-right: 13px;
+}
+
+#world-part .first .text p .adv {
+    background: #df5f37;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+#world-part .first .text h2 {
+    margin-top: 10px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#world-part .first .text .details {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-top: 35px;
+    width: 467px;
+    line-height: 23px;
+}
+
+#world-part .first .text a {
+    margin-top: 45px;
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    padding: 14px 21px;
+    background: #000;
+    border-radius: 38px;
+    margin-right: 25px;
+    transition: .6s;
+}
+
+#world-part .first .text .anchor {
+    background: #fa0f1f;
+    box-shadow: -10px 15px 53px -7px rgba(246, 14, 31, 0.85);
+}
+
+#world-part .first .text i {
+    margin-right: 10px;
+}
+
+#world-part .first .text a:hover {
+    background: #fff;
+    color: #000;
+    box-shadow: inset 0px 0px 44px -9px rgba(255, 0, 153, 1);
+}
+
+
+
+/*=====================================
+          world part start
+======================================*/
+
+
+
+
+/*=====================================
+          venom part start
+======================================*/
+
+#venom-part {
+    background: url(../images/venom-banner.png) no-repeat center;
+    background-size: cover;
+
+}
+
+#venom-part .overlay {
+    background: rgb(21, 31, 43, .9);
+    width: 100%;
+}
+
+#venom-part .container.video {
+    width: 50%;
+}
+
+#venom-part .container .video .v {
+    width: 100%;
+    margin-top: 162px;
+}
+
+#venom-part .container .text {
+    width: 50%;
+    padding-left: 82px;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+}
+
+#venom-part .container .text .p {
+    margin-top: 172px;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+#venom-part .container .text p .count {
+    background: #f4b01e;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin-right: 13px;
+}
+
+#venom-part .container .text p .action {
+    background: #37a3df;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin-right: 13px;
+}
+
+#venom-part .container .text p .adv {
+    background: #df5f37;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+#venom-part .container .text .h3 {
+    margin-top: 40px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#venom-part .container .text .details {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-top: 35px;
+    width: 467px;
+    line-height: 23px;
+}
+
+#venom-part .container .text a {
+    margin-top: 45px;
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    padding: 14px 21px;
+    background: #000;
+    border-radius: 38px;
+    margin-right: 25px;
+    transition: .6s;
+}
+
+#venom-part .container .text .anchor {
+    background: #fa0f1f;
+    box-shadow: -10px 15px 53px -7px rgba(246, 14, 31, 0.85);
+}
+
+#venom-part .container .text i {
+    margin-right: 10px;
+}
+
+#venom-part .container .text a:hover {
+    background: #fff;
+    color: #000;
+    box-shadow: inset 0px 0px 44px -9px rgba(255, 0, 153, 1);
+}
+
+/*=====================================
+          venom part end
+======================================*/
+
+
+
+
+/*=====================================
+        hunger-part start
+======================================*/
+#hunger-part {
+    background: #020d18;
+}
+
+
+#hunger-part .trendbanner {
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 85px;
+
+}
+
+#hunger-part .trendbanner img {
+    box-shadow: -1px 14px 41px -21px rgba(255, 0, 85, 1);
+}
+
+#hunger-part .left {
+    width: 28%;
+}
+
+#hunger-part .left img {
+    width: 100%;
+}
+
+#hunger-part .middle {
+
+    margin-left: 35px;
+
+    color: #fff;
+    width: 40%;
+    display: flex;
+}
+
+#hunger-part .middle h4 {
+    padding-top: 47px;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
+#hunger-part .middle p {
+    color: #f5f5f5;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    width: 416px;
+}
+
+#hunger-part .middle h3 {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+}
+
+#hunger-part .middle .lst {
+    display: block;
+    margin-top: 30px;
+}
+
+#hunger-part .middle .line {
+    height: 100%;
+    width: 2px;
+    background: #f5f5f5;
+}
+
+#hunger-part .last {
+    width: 32%;
+    padding-left: 34px;
+    margin-top: 50px;
+}
+
+#hunger-part .last .one {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+#hunger-part .last .one .image {
+    width: 30%;
+}
+
+#hunger-part .last .one .text {
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+#hunger-part .last .one .text p {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+
+#hunger-part .last .one .text .spann {
+    display: block;
+    color: #c3baba;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+
+#hunger-part .main {
+    justify-content: space-between;
+}
+
+#hunger-part .detail {
+    margin-top: 80px;
+    width: 23%;
+    background: url(../images/hunger-1st.png) no-repeat center;
+    height: 400px;
+}
+
+#hunger-part .details {
+    background: url(../images/hunger-2nd.png) no-repeat center;
+}
+#hunger-part .s {
+    background: url(../images/hunger-3rd.png) no-repeat center;
+}
+#hunger-part .t {
+    background: url(../images/hunger-4th.png) no-repeat center;
+}
+#hunger-part .detail .overlay {
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: 90px;
+    background: rgb(0, 0, 0, .7);
+    margin-top: 310px;
+}
+
+#hunger-part .detail .overlay p {
+    padding-top: 20px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+#hunger-part .button {
+    text-align: center;
+}
+
+#hunger-part a {
+    margin: 45px 0;
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    padding: 14px 21px;
+    background: #15202b;
+    border-radius: 38px;
+    transition: .6s;
+}
+
+#hunger-part a:hover {
+    background: #fff;
+    color: #000;
+    box-shadow: inset 0px 0px 44px -9px rgba(255, 0, 153, 1);
+}
+
+
+
+/*=====================================
+         hunger-part end
+======================================*/
+
+
+
+/* ===================================
+      contact-part css end  
+=================================== */
+#contact-part {
+    background: #000b15;
+}
+
+#contact-part .title {
+    text-align: center;
+
+}
+
+#contact-part .title h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 400;
+    padding-top: 100px;
+    margin-bottom: 45px;
+    position: relative;
+
+}
+
+#contact-part .title h4:after {
+    content: "";
+    height: 2px;
+    width: 128px;
+    background: #fff;
+    bottom: -24px;
+    left: 500px;
+    position: absolute;
+}
+
+#contact-part .title p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #000;
+    margin-bottom: 70px;
+    color: #fff;
+}
+
+#contact-part .contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact-part .cont {
+    width: 47%;
+}
+
+#contact-part .cont input {
+    width: 100%;
+    padding: 5px 0;
+    margin-bottom: 35px;
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+    padding-left: 20px;
+    box-sizing: border-box;
+    outline: 0;
+    background: none;
+}
+
+#contact-part .cont2 {
+    width: 47%;
+}
+
+#contact-part .cont2 input {
+    background: none;
+    width: 100%;
+    padding-bottom: 130px;
+    margin-bottom: 35px;
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+    padding-left: 20px;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+#contact-part .button {
+    text-align: center;
+}
+
+#contact-part .button a {
+    display: inline-block;
+    padding: 15px 25px;
+    border: 2px solid #ff9b51;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin: 40px 0;
+    border-radius: 5px;
+    background: #ff9b51;
+}
+
+/* ===================================
+     contact-part css end  
+=================================== */
+
+
+
+
+/* ===================================
+          last-part css start 
+=================================== */
+#last-part {
+    background: #000000;
+}
+
+#last-part .last {
+    text-align: center;
+}
+
+#last-part .last .icon i {
+    color: #fff;
+    padding-top: 19px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+#last-part .last p {
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* ===================================
+          last-part css end  
+=================================== */
